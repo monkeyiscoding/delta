@@ -76,8 +76,6 @@ hr{
 }
 .menu-items:hover {
   color: var(--primary-color);
-  margin-right: 20px;
-  font-size: 20px;
   text-decoration: none;
 }
 
@@ -472,7 +470,7 @@ hr{
   border-radius: 10px;
   margin-left: 50px;
   box-shadow: 10px 10px 10px #aeb0af;
-  
+
 
 }
 
@@ -538,6 +536,37 @@ hr{
   .review-div{
     padding-left: 50px;
   }
+
+  .bar-container{
+    height: 100px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0px 0px 5px gray;
+    background-color: #6A6A6A;
+    z-index: 3;
+    position: fixed;
+    top: 0px;
+  }
+
+  .top-bar{
+    margin-top: 20px;
+  }
+
+  .menu-items{
+    color: white;
+    margin-right: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: bahnschrift;
+  }
+
+
+.contact-button{
+
+font-size: 22px;
+}
+
 
 
 }
