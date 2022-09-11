@@ -515,6 +515,10 @@ hr{
      justify-content: center;
   }
 
+  .heading{
+    font-size: 100px;     
+  }
+
   .about-details{
     text-align: center;
     width: 100%;
@@ -530,7 +534,7 @@ hr{
 
   .landing-page{
     padding: 50px 100px 0px 100px;
-    height: 600px;
+    height: 1000px;
   }
 
   .review-div{
