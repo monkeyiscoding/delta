@@ -1,8 +1,7 @@
-
 :root {
-    --primary-color:		#FFFF00;
-    --secondary-color:#6A6A6A;
-    --font-default:bahnschrift;
+  --primary-color: #FFFF00;
+  --secondary-color: #6A6A6A;
+  --font-default: bahnschrift;
 }
 
 body {
@@ -23,7 +22,7 @@ input {
   height: 100%;
 }
 
-hr{
+hr {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 50px;
@@ -41,7 +40,7 @@ hr{
   margin-left: 60px;
 }
 
-.bar-container{
+.bar-container {
   height: 70px;
   width: 100%;
   padding: 0px;
@@ -64,22 +63,22 @@ hr{
   width: 100%;
   margin-right: 100px;
   margin-bottom: 10px;
-
 }
 
-.menu-items{
+.menu-items {
   color: white;
   margin-right: 20px;
   font-size: 20px;
   text-decoration: none;
   font-family: bahnschrift;
 }
+
 .menu-items:hover {
   color: var(--primary-color);
   text-decoration: none;
 }
 
-.contact-button{
+.contact-button {
   background-color: var(--primary-color);
   border: 0px;
   color: black;
@@ -92,36 +91,30 @@ hr{
   margin-left: 20px;
 }
 
-
-.landing-page{
+.landing-page {
   height: 800px;
   padding-top: 100px;
   padding-left: 150px;
   padding-right: 100px;
   width: 100%;
-  background-color:  var(--secondary-color);
-
+  background-color: var(--secondary-color);
 }
 
-.heading{
+.heading {
   color: white;
   margin-top: 20px;
   font-size: 50px;
   font-family: bahnschrift;
-
 }
 
-.left-button-div{
+.left-button-div {
   display: flex;
   text-align: center;
   align-items: center;
   margin-top: 50px;
-
 }
 
-
-
-.button{
+.button {
   background-color: var(--primary-color);
   border: 0px;
   color: black;
@@ -135,7 +128,7 @@ hr{
   font-family: bahnschrift;
 }
 
-.button-whatsapp{
+.button-whatsapp {
   background-color: #25D366;
   border: 0px;
   color: white;
@@ -149,23 +142,28 @@ hr{
   font-family: bahnschrift;
 }
 
-
 .floating {
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
-
 
 @keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 15px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
-
-.services{
+.services {
   height: 180px;
   width: 150px;
   box-shadow: 5px 5px 10px #caccca;
@@ -179,18 +177,17 @@ hr{
   margin-top: 100px;
 }
 
-.icons{
+.icons {
   height: 50px;
   margin-top: 40px;
-
 }
 
-.titles{
+.titles {
   margin-top: 15px;
   font-family: bahnschrift;
 }
 
-.info-images{
+.info-images {
   height: 300px;
   padding: 0px;
   width: 400px;
@@ -198,7 +195,7 @@ hr{
   box-shadow: 10px 10px 20px #caccca;
 }
 
-.review-div{
+.review-div {
   height: 300px;
   text-align: center;
   margin-top: 30px;
@@ -210,8 +207,7 @@ hr{
   text-align: center;
 }
 
-
-.review-card{
+.review-card {
   height: 200px;
   background-color: #e8e6e6;
   margin-right: 50px;
@@ -223,22 +219,14 @@ hr{
   color: white;
   padding: 14px;
   text-decoration: none;
-
-
 }
 
-
-.bootom-details-div{
+.bootom-details-div {
   height: 400px;
   background-color: #ebebeb;
   text-align: center;
   margin-top: 100px;
 }
-
-
-
-
-
 
 .search-card {
   width: 40%;
@@ -412,54 +400,50 @@ hr{
 }
 
 .recomended-game-card:hover {
- transform: scale(1.04);
-
+  transform: scale(1.04);
 }
 
-
-.recomended-thumbnail{
+.recomended-thumbnail {
   width: 100%;
   height: 120px;
   margin: 10px auto 0px auto;
 }
 
-.recomended-bottom-div{
+.recomended-bottom-div {
   width: 100%;
   height: 60px;
   margin: 0px 20px 20px 0px;
   display: flex;
-
 }
 
-.recomended-bottom-div-right{
+.recomended-bottom-div-right {
   width: 100%;
   height: 60px;
   margin: 0px 20px 20px 10px;
-
 }
-.recomended-logo{
+
+.recomended-logo {
   width: 50px;
   height: 50px;
   margin: 10px 0px 0px 0px;
   border-radius: 5px;
 }
 
-.services-div{
+.services-div {
   margin: 00px 350px 0px 400px;
-   padding-bottom: 50px;
-   justify-content: center;
+  padding-bottom: 50px;
+  justify-content: center;
 }
 
-.whatsapp-button{
+.whatsapp-button {
   position: fixed;
   z-index: 10;
   height: 180px;
   bottom: 50px;
   right: 50px;
-
 }
 
-.items-bottom-up{
+.items-bottom-up {
   width: 250px;
   align-items: center;
   justify-content: center;
@@ -470,56 +454,37 @@ hr{
   border-radius: 10px;
   margin-left: 50px;
   box-shadow: 10px 10px 10px #aeb0af;
-
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1100px){
-  .landing-left{
+@media (max-width: 1100px) {
+  .landing-left {
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: 0px;
   }
 
-  .left-button-div{
+  .left-button-div {
     text-align: center;
     align-items: center;
     justify-content: center;
   }
 
-  .landing-right{
+  .landing-right {
     display: none;
   }
 
-  .services-div{
+  .services-div {
     margin: 0px 0px 0px 50px;
-     padding-bottom: 50px;
-     justify-content: center;
+    padding-bottom: 50px;
+    justify-content: center;
   }
 
-  .heading{
-    font-size: 60px;     
+  .heading {
+    font-size: 60px;
   }
 
-  .about-details{
+  .about-details {
     text-align: center;
     width: 100%;
     height: 100%;
@@ -528,20 +493,21 @@ hr{
     margin-top: 100px;
   }
 
-  .logo-top{
+  .logo-top {
     margin-left: 10px;
   }
 
-  .landing-page{
+  .landing-page {
     padding: 50px 100px 0px 100px;
     height: 1000px;
+    padding-top: 150px;
   }
 
-  .review-div{
+  .review-div {
     padding-left: 50px;
   }
 
-  .bar-container{
+  .bar-container {
     height: 100px;
     width: 100%;
     padding: 0px;
@@ -553,11 +519,11 @@ hr{
     top: 0px;
   }
 
-  .top-bar{
+  .top-bar {
     margin-top: 20px;
   }
 
-  .menu-items{
+  .menu-items {
     color: white;
     margin-right: 20px;
     font-size: 30px;
@@ -565,38 +531,17 @@ hr{
     font-family: bahnschrift;
   }
 
+  .contact-button {
+    font-size: 22px;
+  }
 
-.contact-button{
-
-font-size: 22px;
+  .button {
+    font-size: 32px;
+    margin-top: 50px;
+  }
 }
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* snackbar */
-
 #snackbar {
   visibility: hidden;
   min-width: 250px;
@@ -620,21 +565,49 @@ font-size: 22px;
 }
 
 @-webkit-keyframes fadein {
-  from {bottom: 0; opacity: 0;}
-  to {bottom: 30px; opacity: 1;}
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
 }
 
 @keyframes fadein {
-  from {bottom: 0; opacity: 0;}
-  to {bottom: 30px; opacity: 1;}
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeout {
-  from {bottom: 30px; opacity: 1;}
-  to {bottom: 0; opacity: 0;}
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }
 
 @keyframes fadeout {
-  from {bottom: 30px; opacity: 1;}
-  to {bottom: 0; opacity: 0;}
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }
