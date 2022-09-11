@@ -231,15 +231,12 @@ hr{
 
 
 .bootom-details-div{
-  height: 300px;
+  height: 400px;
   background-color: #ebebeb;
   text-align: center;
+  margin-top: 100px;
 }
 
-
-main{
-
-}
 
 
 
@@ -455,6 +452,46 @@ main{
    justify-content: center;
 }
 
+.whatsapp-button{
+  position: fixed;
+  z-index: 10;
+  height: 80px;
+  bottom: 50px;
+  right: 50px;
+
+}
+
+.items-bottom-up{
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-left: 50px;
+  box-shadow: 10px 10px 10px #aeb0af;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1100px){
   .landing-left{
@@ -496,6 +533,10 @@ main{
   .landing-page{
     padding: 50px 100px 0px 100px;
     height: 600px;
+  }
+
+  .review-div{
+    padding-left: 50px;
   }
 
 
